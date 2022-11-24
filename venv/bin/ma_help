@@ -1,0 +1,10 @@
+#!/home/runner/SickDarkorchidInstitution/venv/bin/python3
+
+import ma.api.help
+
+def _main():
+    h = ma.api.help.HelpApi()
+    h.print_help()
+
+if __name__ == '__main__':
+    _main()
